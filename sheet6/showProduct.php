@@ -26,5 +26,7 @@ $product = $products[$id];
     <h3>Product Name : <?=$product[0]?></h3>
     <h3>Product Price : <?=$product[1]?>$</h3>
     <h3>Product Quantity : <?=$product[2]?></h3>
+
+    <a href="tabledata.php"><button>Go Back</button></a>
 </body>
 </html>
